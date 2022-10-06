@@ -1,0 +1,188 @@
+.backattch
+{
+  background-attachment: fixed;
+}
+.text
+{
+  color: #9fc4ce;
+  padding-top: 50px;
+  position: relative;
+}
+.text::before
+{
+  content: '';
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: #9fc4ce;
+    left: 35%;
+    top: 85%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.text::after
+{
+  content: '';
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: #9fc4ce;
+    right: 35%;
+    top: 85%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.parallex
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url(../image/parallax.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+.black p ,h1{
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 700;
+  background-color: transparent;
+}
+.team_btn 
+{
+  padding: 12px 28px;
+  border-radius: 1px;
+  background-color: #9fc4ce;
+  border: 1px solid #9fc4ce;
+  color: #fff!important;
+  letter-spacing: .5px;
+  font-size: 14px;
+  transition: .5s ease-in;
+}
+.team_btn:hover 
+{
+  background-color: white;
+  color:#9fc4ce!important ;
+  border: 1px solid #9fc4ce;
+}
+.f4
+{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../image/f4.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 150px;
+}
+.f5
+{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../image/f5.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 150px;
+}
+.f3
+{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../image/f3.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 150px;
+}
+/* ================================================================ */
+h3 ,i{
+    font-weight: 900!important;
+}
+.bread img
+{
+    height: 290px!important;
+    object-fit: cover;
+}
+.relative
+{
+    position: relative;
+    transition: 1s ease-out;
+}
+.child
+{
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    background-color: transparent;
+    left: 20px;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+h3
+{
+    text-transform: uppercase;
+}
+.bg
+{
+    background-color: #fcf9f5;
+}
+.image img
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: none;
+}
+.parent
+{
+    position: relative;
+}
+.child1
+{
+    position: absolute;
+    bottom: -50px;
+    left: 26px;
+}
+.box {
+    height: 100%;
+    width: 100%;
+    background: #9fc4ce;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    /* border: 1px solid white; */
+    transition: 1s ease-out;
+  }
+  .box:hover {
+    opacity: 0.8;
+  }
+  .flex1
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .icon
+  {
+    font-size: 45px;
+    color: red;
+  }
+  .date
+  {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 35px!important;
+    margin-top: 20px;
+    margin-left: 3px;
+    padding: 5px;
+  }
+  /* ------------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------------ */
+  .owl-carousel .owl-dots.disabled
+  {
+    display: block!important;
+  }
+  .testi_cont img
+  {
+      width: 100%;
+      height: 100%;
+  }

@@ -1,0 +1,32 @@
+.slider1
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../image/s1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.slider2
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../image/s2.webp);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.slider3
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../image/s3.webp);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.carousel p{
+    color: white;
+    font-size: 18px;
+}
+.carousel h1{
+    font-size: 80px;
+}
+.carousel-caption
+{
+    bottom: 250px!important;
+}

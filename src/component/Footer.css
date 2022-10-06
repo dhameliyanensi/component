@@ -1,0 +1,42 @@
+.tiny
+{
+    letter-spacing: 1.5px;
+}
+.footer-icon
+{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.d-flex .footer-icon{
+    padding-left: 35px;
+}
+.footer_h2
+{
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+a h6{
+    color: white;
+    /* padding-top: 10px; */
+}
+.footer_image .row>*
+{
+    padding-right: 0!important;
+    padding-left:0!important;
+}
+.footer h2:hover{
+    color: yellow!important;
+}
+.footer h6:hover
+{
+    color: yellow;
+}
+.footer i:hover
+{
+    color: yellow;
+}
+.line
+{
+    text-decoration: underline 1px solid;
+    color: white;
+}
